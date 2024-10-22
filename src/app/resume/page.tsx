@@ -1,8 +1,6 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
-import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
-
 import { WorkHistory } from "@/components/WorkHistory";
 
 export default function Home() {
@@ -11,9 +9,14 @@ export default function Home() {
       <span className="text-4xl">💼</span>
       <Heading className="font-black">Work History</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        I&apos;m a Frontend Developer with over 1+ year of experience in
+        building high-performance, responsive web applications using React.js,
+        Next.js, and JavaScript.
+      </Paragraph>
+      <Paragraph className="max-w-xl mt-4">
+        My focus is on creating intuitive, user-friendly interfaces that enhance
+        user experiences, collaborating with teams to deliver seamless products,
+        and contributing to open-source projects.
       </Paragraph>
       <WorkHistory />
     </Container>
