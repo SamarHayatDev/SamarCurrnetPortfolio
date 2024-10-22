@@ -1,19 +1,23 @@
-import { IconBrandLinkedin } from "@tabler/icons-react";
+import { IconBrandLinkedin, IconMail } from "@tabler/icons-react";
+import { TbBrandGithub } from "react-icons/tb";
 
 export const socials = [
-  // {
-  //   href: "https://twitter.com/mannupaaji",
-  //   label: "Twitter",
-  //   icon: IconBrandTwitter,
-  // },
+  // GitHub link
+  {
+    href: "https://github.com/samarhayatdev",
+    label: "GitHub",
+    icon: TbBrandGithub,
+  },
+  // LinkedIn link
   {
     href: "https://linkedin.com/in/samarhayatdev",
     label: "LinkedIn",
     icon: IconBrandLinkedin,
   },
-  // {
-  //   href: "https://youtube.com/maninthere",
-  //   label: "YouTube",
-  //   icon: IconBrandYoutube,
-  // },
+  // Email link
+  {
+    href: "mailto:samarhayat.dev@gmail.com",
+    label: "Email",
+    icon: IconMail,
+  },
 ];
