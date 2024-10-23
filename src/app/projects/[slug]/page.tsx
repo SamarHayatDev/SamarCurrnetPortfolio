@@ -21,9 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | John Doe",
+      title: "Projects | Samar Hayat",
       description:
-        "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+        "Samar Hayat is a Frontend Developer with 1+ year of experience. Explore his projects showcasing high-performance web applications built with React.js, Next.js, and JavaScript.",
     };
   }
 }

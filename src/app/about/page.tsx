@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "About | Samar Hayat",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Samar Hayat is a passionate Frontend Developer with over 1+ year of experience. He specializes in building responsive and high-performance web applications using React.js, Next.js, and JavaScript.",
 };
 
 export default function AboutPage() {
