@@ -43,7 +43,7 @@ export default function About() {
   return (
     <div>
       {/* Using ImageGrid Component */}
-      <ImageGrid images={images} />
+      {/* <ImageGrid images={images} /> */}
 
       <div className="max-w-4xl">
         <Paragraph className="mt-4">
