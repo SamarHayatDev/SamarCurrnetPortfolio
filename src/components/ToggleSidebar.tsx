@@ -43,6 +43,7 @@ export const ToggleSidebar = () => {
       <button
         className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-white/10 bg-slate-900 shadow-2xl shadow-zinc-900 rounded-full backdrop-blur-sm flex items-center justify-center z-50 group"
         onClick={() => setOpen(!open)}
+        aria-label="Toggle Sidebar"
       >
         <span className="absolute inset-0 overflow-hidden rounded-full">
           <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
