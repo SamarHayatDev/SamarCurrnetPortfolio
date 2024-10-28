@@ -1,6 +1,6 @@
-import gogencyImage1 from "public/images/sidefolio-aceternity-2.png";
-import gogencyThumbnail from "public/images/sidefolio-aceternity-2.png";
-import gogencyImage2 from "public/images/sidefolio-aceternity-2.png";
+import gogencyImage1 from "public/images/Gogency.png";
+import gogencyThumbnail from "public/images/Gogency.png";
+import gogencyImage2 from "public/images/Gogency.png";
 
 export const products = [
   {
