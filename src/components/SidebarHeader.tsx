@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import me from "public/images/me.png";
-import gogencyImage2 from "public/images/sidefolio-aceternity-2.png";
+
 export const SidebarHeader = () => {
   return (
     <div className="flex space-x-2">
