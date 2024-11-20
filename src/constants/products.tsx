@@ -36,8 +36,8 @@ export const products = [
           certain aspects.
         </p>
         <p>
-          Whether you're a startup or scaling enterprise, Xecutors ensures that
-          your digital vision is executed flawlessly, providing unmatched
+          Whether you&apos;re a startup or scaling enterprise, Xecutors ensures
+          that your digital vision is executed flawlessly, providing unmatched
           support and innovative solutions.
         </p>
       </div>
