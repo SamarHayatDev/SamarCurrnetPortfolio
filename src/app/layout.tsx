@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Samar Hayat - Developer",
+  title: "Samar Hayat - Frontend Developer",
   description:
     "Samar Hayat is a Frontend Developer, tech blogger, and open-source contributor. He enjoys staying up-to-date with the latest trends in UI/UX design and continually enhances his skills while working remotely.",
 };
