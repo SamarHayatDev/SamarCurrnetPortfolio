@@ -43,7 +43,7 @@ An automated platform for travel agencies, offering features like ticket invoice
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone git@github.com:SamarHayatDev/SamarCurrnetPortfolio.git
    ```
 2. Install dependencies:
    ```bash
