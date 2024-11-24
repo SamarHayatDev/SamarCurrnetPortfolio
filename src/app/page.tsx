@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
+import { NotAProBut } from "@/components/NotAProBut";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
 import { TechStack } from "@/components/TechStack";
@@ -36,6 +37,7 @@ export default function Home() {
       </Heading>
       <Products />
       <TechStack />
+      <NotAProBut />
     </Container>
   );
 }

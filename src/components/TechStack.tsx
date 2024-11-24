@@ -76,7 +76,14 @@ import React from "react";
 import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub } from "react-icons/fa";
-import { SiTypescript, SiGraphql, SiNextdotjs } from "react-icons/si"; // Importing specific icons
+import {
+  SiTypescript,
+  SiGraphql,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiMui,
+  SiShadcnui,
+} from "react-icons/si"; // Importing specific icons
 
 export const TechStack = () => {
   // Common class for all icons
@@ -92,6 +99,10 @@ export const TechStack = () => {
       icon: <FaCss3Alt className={twMerge(iconClass, "text-blue-600")} />, // CSS icon
     },
     {
+      title: "Tailwind CSS",
+      icon: <SiTailwindcss className={twMerge(iconClass, "text-sky-500")} />, // CSS icon
+    },
+    {
       title: "JavaScript",
       icon: <FaJs className={twMerge(iconClass, "text-yellow-400")} />, // JavaScript icon
     },
@@ -102,6 +113,14 @@ export const TechStack = () => {
     {
       title: "React",
       icon: <FaReact className={twMerge(iconClass, "text-blue-400")} />, // React icon
+    },
+    {
+      title: "MUI",
+      icon: <SiMui className={twMerge(iconClass, "text-sky-400")} />, // React icon
+    },
+    {
+      title: "Shadcn",
+      icon: <SiShadcnui className={twMerge(iconClass, "text-Black")} />, // React icon
     },
     {
       title: "GraphQL",
