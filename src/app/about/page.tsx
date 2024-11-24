@@ -1,18 +1,14 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
-import { Highlight } from "@/components/Highlight";
-import { Paragraph } from "@/components/Paragraph";
-import { Products } from "@/components/Products";
-import { Metadata } from "next";
-import Image from "next/image";
 
-import { motion } from "framer-motion";
+import { Metadata } from "next";
+
 import About from "@/components/About";
 
 export const metadata: Metadata = {
   title: "About | Samar Hayat",
   description:
-    "Samar Hayat is a passionate Frontend Developer with over 1+ year of experience. He specializes in building responsive and high-performance web applications using React.js, Next.js, and JavaScript.",
+    "Samar Hayat, Frontend Developer with 1+ years of experience, builds responsive, high-performance web apps using React, Next.js, and JavaScript.",
 };
 
 export default function AboutPage() {
