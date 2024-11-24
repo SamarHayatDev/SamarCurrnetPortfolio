@@ -36,7 +36,7 @@ export const NotAProBut = () => {
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-10 mb-4"
       >
-        I'm Not a Pro, But I Can Work With...
+        I&apos;m Not a Pro, But I Can Work With...
       </Heading>
       <div className="flex flex-wrap">
         {tools.map((item) => (
