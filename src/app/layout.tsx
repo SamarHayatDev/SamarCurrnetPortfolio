@@ -30,6 +30,21 @@ export default function RootLayout({
           name="google-site-verification"
           content="WngP93RQqWAa6aTf0uJvLP2UyYJ8SacTK6EUsv8h4lA"
         />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZMEJ7HL9SP"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZMEJ7HL9SP');
+      `,
+          }}
+        />
       </head>
       <body
         className={twMerge(
