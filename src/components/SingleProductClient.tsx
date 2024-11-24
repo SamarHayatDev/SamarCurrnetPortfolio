@@ -39,7 +39,7 @@ export const SingleProductClient = ({ product }: { product: Product }) => {
               alt="product thumbnail"
               height="1000"
               width="1000"
-              className="h-14 w-16 md:h-40 md:w-60 object-cover object-top mr-4 mb-4 border rounded-lg border-neutral-100"
+              className="h-14 w-16 md:h-40 md:w-60 object-fit object-top mr-4 mb-4 border rounded-lg border-neutral-100"
             />
           </button>
         ))}
