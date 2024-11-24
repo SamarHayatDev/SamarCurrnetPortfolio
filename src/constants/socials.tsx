@@ -28,7 +28,7 @@ export const socials = [
     icon: TbBrandWhatsapp,
   },
   {
-    href: "",
+    href: "https://discordapp.com/users/752720923534295160",
     label: "@samarhayat.dev",
     icon: TbBrandDiscord,
   },
