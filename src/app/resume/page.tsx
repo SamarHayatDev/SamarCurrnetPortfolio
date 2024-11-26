@@ -2,6 +2,13 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Paragraph } from "@/components/Paragraph";
 import { WorkHistory } from "@/components/WorkHistory";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Samar Hayat - Resume",
+  description:
+    "Samar Hayat, Frontend Developer with expertise in React and Next.js, creating responsive web applications and enhancing user experiences.",
+};
 
 export default function Home() {
   return (

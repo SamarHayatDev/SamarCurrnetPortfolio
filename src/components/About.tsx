@@ -34,6 +34,13 @@ import ImageGrid from "./ImageGrid";
 import MeOne from "public/images/me/MeOne.png";
 import MeTwo from "public/images/me/MeTwo.png";
 import MeThree from "public/images/me/MeThree.png";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Samar Hayat - Frontend Developer",
+  description:
+    "Learn about Samar Hayat, a Frontend Developer skilled in React, Next.js, and creating user-focused web experiences with clean, efficient code.",
+};
 
 export default function About() {
   const images = [MeOne.src, MeTwo.src, MeThree.src];
