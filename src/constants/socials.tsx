@@ -23,7 +23,7 @@ export const socials = [
     icon: IconMail,
   },
   {
-    href: "https://wa.me/923495129992?text=Hi%20there!%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20more.%20Looking%20forward%20to%20connecting!",
+    href: "https://wa.me/923495129992",
     label: "WhatsApp",
     icon: TbBrandWhatsapp,
   },
