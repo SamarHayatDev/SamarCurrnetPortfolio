@@ -1,6 +1,3 @@
-"use client";
-import Head from "next/head";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { formatDate } from "../../lib/formatDate";
 import { Prose } from "@/components/Prose";
@@ -28,10 +25,19 @@ export function BlogLayout({
   isRssFeed = false,
   previousPathname,
 }: any) {
-  let router = useRouter();
-
   return (
     <Container>
+      {/* Dynamic Metadata */}
+      <head>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={meta.image} />
+        <meta property="og:type" content="article" />
+        <meta name="keywords" content={meta.tags.join(", ")} />
+        <meta name="author" content="Your Name or Website" />
+      </head>
       <article>
         <header className="flex flex-col">
           <Link
