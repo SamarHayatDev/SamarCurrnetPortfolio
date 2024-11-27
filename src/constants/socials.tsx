@@ -23,7 +23,7 @@ export const socials = [
     icon: IconMail,
   },
   {
-    href: "https://wa.me/923495129992",
+    href: "https://wa.me/923495129992   ",
     label: "WhatsApp",
     icon: TbBrandWhatsapp,
   },
