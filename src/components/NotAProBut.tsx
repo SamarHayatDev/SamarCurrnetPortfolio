@@ -1,8 +1,12 @@
+// components/NotAProBut.jsx
+
 import React from "react";
 import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
+
 import { TbSeo } from "react-icons/tb";
-import { SiFigma, SiWordpress, SiGutenberg, SiElementor } from "react-icons/si"; // Importing specific icons
+import { SiFigma, SiWordpress, SiGutenberg, SiElementor } from "react-icons/si";
+import { AnimatedIcon } from "./AnimatedIcon";
 
 export const NotAProBut = () => {
   const iconClass = "text-2xl";
@@ -10,23 +14,28 @@ export const NotAProBut = () => {
   const tools = [
     {
       title: "Figma",
-      icon: <SiFigma className={twMerge(iconClass, "text-yellow-500")} />, // Figma color
+      icon: <SiFigma className={twMerge(iconClass, "text-yellow-500")} />,
+      bgColor: "bg-yellow-100",
     },
     {
       title: "WordPress",
-      icon: <SiWordpress className={twMerge(iconClass, "text-blue-600")} />, // WordPress color
+      icon: <SiWordpress className={twMerge(iconClass, "text-blue-600")} />,
+      bgColor: "bg-blue-100",
     },
     {
       title: "Elementor",
-      icon: <SiElementor className={twMerge(iconClass, "text-pink-700")} />, // Elementor color
+      icon: <SiElementor className={twMerge(iconClass, "text-pink-700")} />,
+      bgColor: "bg-pink-100",
     },
     {
       title: "Gutenberg",
-      icon: <SiGutenberg className={twMerge(iconClass, "text-gray-700")} />, // Gutenberg color
+      icon: <SiGutenberg className={twMerge(iconClass, "text-gray-700")} />,
+      bgColor: "bg-gray-100",
     },
     {
       title: "SEO",
-      icon: <TbSeo className={twMerge(iconClass, "text-green-500")} />, // SEO color
+      icon: <TbSeo className={twMerge(iconClass, "text-green-500")} />,
+      bgColor: "bg-green-100",
     },
   ];
 
@@ -44,8 +53,23 @@ export const NotAProBut = () => {
             key={item.title}
             className="flex flex-col items-center justify-center mr-4 mb-4 text-center"
           >
-            {item.icon}
-            <p className="mt-2 text-sm font-semibold">{item.title}</p>
+            <div
+              className={twMerge(
+                "p-3 flex items-center justify-center rounded-md",
+                item.bgColor
+              )}
+              style={{ width: "80px", height: "80px" }}
+            >
+              <AnimatedIcon
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 1.1 }}
+              >
+                {item.icon}
+              </AnimatedIcon>
+            </div>
+            <p className="mt-2 text-sm font-semibold w-full text-center">
+              {item.title}
+            </p>
           </div>
         ))}
       </div>
