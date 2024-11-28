@@ -47,19 +47,22 @@ export const NotAProBut = () => {
     <div>
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-10 mb-4"
+        className="font-black text-lg md:text-lg  lg:text-lg mt-10 mb-4"
       >
         I&apos;m Not a Pro, But I Can Work With...
       </Heading>
-      <div className="flex flex-wrap justify-between md:justify-start">
+      <div
+        // className="flex flex-wrap justify-between md:justify-start"
+        className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8"
+      >
         {tools.map((item) => (
           <div
             key={item.title}
-            className="flex flex-col items-center justify-center mr-4 mb-4 text-center"
+            className="flex flex-col items-center justify-center mr-4 mb-4 text-center "
           >
             <div
               className={twMerge(
-                "p-3 flex items-center justify-center rounded-md w-[80px] h-[80px] group",
+                " flex items-center justify-center rounded-md w-[80px] h-[80px] group",
                 item.bgColor
               )}
             >

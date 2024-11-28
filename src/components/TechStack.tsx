@@ -89,7 +89,10 @@ export const TechStack = () => {
       >
         Tech Stack
       </Heading>
-      <div className="flex flex-wrap justify-between md:justify-start">
+      <div
+        // className="flex flex-wrap justify-between md:justify-start"
+        className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8"
+      >
         {stack.map((item) => (
           <div
             key={item.title}
