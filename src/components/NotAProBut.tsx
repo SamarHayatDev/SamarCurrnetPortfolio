@@ -4,7 +4,7 @@ import React from "react";
 import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
 
-import { TbSeo } from "react-icons/tb";
+import { TbSeo, TbBrandPhp } from "react-icons/tb";
 import { SiFigma, SiWordpress, SiGutenberg, SiElementor } from "react-icons/si";
 
 export const NotAProBut = () => {
@@ -35,6 +35,11 @@ export const NotAProBut = () => {
       title: "SEO",
       icon: <TbSeo className={twMerge(iconClass, "text-green-500")} />,
       bgColor: "bg-green-100",
+    },
+    {
+      title: "PHP",
+      icon: <TbBrandPhp className={twMerge(iconClass, "text-blue-600")} />,
+      bgColor: "bg-blue-100",
     },
   ];
 
