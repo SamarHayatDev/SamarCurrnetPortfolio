@@ -53,16 +53,16 @@ export const NotAProBut = () => {
       </Heading>
       <div
         // className="flex flex-wrap justify-between md:justify-start"
-        className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8"
+        className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-8 gap-4"
       >
         {tools.map((item) => (
           <div
             key={item.title}
-            className="flex flex-col items-center justify-center mr-4 mb-4 text-center "
+            className="flex flex-col items-center justify-center text-center "
           >
             <div
               className={twMerge(
-                " flex items-center justify-center rounded-md w-[80px] h-[80px] group",
+                " flex items-center justify-center rounded-md w-[60px] h-[60px] md:w-[80px] md:h-[80px] group",
                 item.bgColor
               )}
             >
