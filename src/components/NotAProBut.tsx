@@ -6,10 +6,9 @@ import { twMerge } from "tailwind-merge";
 
 import { TbSeo } from "react-icons/tb";
 import { SiFigma, SiWordpress, SiGutenberg, SiElementor } from "react-icons/si";
-import { AnimatedIcon } from "./AnimatedIcon";
 
 export const NotAProBut = () => {
-  const iconClass = "text-2xl";
+  const iconClass = "text-2xl group-hover:text-3xl transition-all duration-300";
 
   const tools = [
     {
@@ -55,17 +54,11 @@ export const NotAProBut = () => {
           >
             <div
               className={twMerge(
-                "p-3 flex items-center justify-center rounded-md",
+                "p-3 flex items-center justify-center rounded-md w-[80px] h-[80px] group",
                 item.bgColor
               )}
-              style={{ width: "80px", height: "80px" }}
             >
-              <AnimatedIcon
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 1.1 }}
-              >
-                {item.icon}
-              </AnimatedIcon>
+              <div>{item.icon}</div>
             </div>
             <p className="mt-2 text-sm font-semibold w-full text-center">
               {item.title}

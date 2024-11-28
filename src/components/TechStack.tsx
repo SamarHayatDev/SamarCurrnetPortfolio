@@ -13,10 +13,9 @@ import {
   SiMui,
   SiShadcnui,
 } from "react-icons/si";
-import { AnimatedIcon } from "./AnimatedIcon";
 
 export const TechStack = () => {
-  const iconClass = "text-2xl";
+  const iconClass = "text-2xl group-hover:text-3xl transition-all duration-300";
 
   const stack = [
     {
@@ -92,17 +91,11 @@ export const TechStack = () => {
           >
             <div
               className={twMerge(
-                "flex items-center justify-center rounded-md",
+                "p-3 flex items-center justify-center rounded-md w-[80px] h-[80px] group",
                 item.bgColor
               )}
-              style={{ width: "80px", height: "80px" }}
             >
-              <AnimatedIcon
-                whileHover={{ scale: 1.3 }}
-                whileTap={{ scale: 1.2 }}
-              >
-                {item.icon}
-              </AnimatedIcon>
+              <div>{item.icon}</div>
             </div>
             <p className="mt-2 text-sm font-semibold w-full text-center">
               {item.title}

@@ -1,7 +1,6 @@
-// components/AnimatedIcon.jsx
 "use client";
 import React from "react";
-import { motion } from "framer-motion"; // Importing Framer Motion
+import { motion } from "framer-motion";
 
 export const AnimatedIcon = ({ children, whileHover, whileTap }: any) => {
   return (
