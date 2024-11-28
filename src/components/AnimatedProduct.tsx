@@ -34,9 +34,9 @@ export const AnimatedProduct = ({
         <Image
           src={product.thumbnail}
           alt="thumbnail"
-          height="200"
-          width="200"
-          className="rounded-md w-full h-full md:h-[100px] md:w-[200px] object-contain"
+          height="1000"
+          width="1000"
+          className="rounded-md w-full h-full md:h-[100px] md:w-[200px] object-cover"
         />
         <div className="flex flex-col justify-between">
           <div>
