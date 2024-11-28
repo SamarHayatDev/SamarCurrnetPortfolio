@@ -53,14 +53,14 @@ export const BlogClient = ({ blog, index }: { blog: Blog; index: number }) => {
               />
             )}
           </AnimatePresence>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 relative z-20">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 relative z-20 ">
             <Image
               src={blog.image}
               alt="thumbnail"
               height="200"
               width="200"
               objectFit="cover"
-              className="rounded-md object-cover h-40 w-60"
+              className="rounded-md w-full h-full md:h-[100px] md:w-[200px] object-contain"
             />
             <div className="flex flex-col col-span-3">
               <Heading className="text-lg md:text-lg lg:text-lg">
@@ -69,11 +69,11 @@ export const BlogClient = ({ blog, index }: { blog: Blog; index: number }) => {
               <Paragraph className="text-sm md:text-sm lg:text-sm mt-2">
                 {blog.description}
               </Paragraph>
-              <div className="flex space-x-2 flex-wrap mt-4">
+              <div className="flex space-x-2 flex-wrap mt-4 gap-1">
                 {blog.tags?.map((tag, index) => (
                   <span
                     key={`tag-${blog.slug}-${index}`}
-                    className="text-xs px-1 py-0.5 text-secondary border border-neutral-200 bg-white rounded-md"
+                    className="text-xs px-2 py-1 text-secondary border border-neutral-200 bg-white rounded-md"
                   >
                     {tag}
                   </span>
