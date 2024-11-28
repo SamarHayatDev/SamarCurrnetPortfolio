@@ -9,7 +9,7 @@ import { TechStack } from "@/components/TechStack";
 export default function Home() {
   return (
     <Container>
-      <span className="text-4xl">👋</span>
+      {/* <span className="text-4xl">👋</span> */}
       <Heading className="font-black">
         Hello there! I&apos;m Samar Hayat
       </Heading>

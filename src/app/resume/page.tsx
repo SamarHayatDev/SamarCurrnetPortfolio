@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Container>
-      <span className="text-4xl">💼</span>
+      {/* <span className="text-4xl">💼</span> */}
       <Heading className="font-black">Work History</Heading>
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a Frontend Developer with over 1+ year of experience in
