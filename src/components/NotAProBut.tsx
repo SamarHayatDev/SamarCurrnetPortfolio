@@ -51,7 +51,7 @@ export const NotAProBut = () => {
       >
         I&apos;m Not a Pro, But I Can Work With...
       </Heading>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-between md:justify-start">
         {tools.map((item) => (
           <div
             key={item.title}

@@ -13,6 +13,7 @@ import {
   SiMui,
   SiShadcnui,
 } from "react-icons/si";
+import { TbBrandGit } from "react-icons/tb";
 
 export const TechStack = () => {
   const iconClass = "text-2xl group-hover:text-3xl transition-all duration-300";
@@ -64,7 +65,12 @@ export const TechStack = () => {
       bgColor: "bg-pink-100",
     },
     {
-      title: "Git & GitHub",
+      title: "Git",
+      icon: <TbBrandGit className={twMerge(iconClass, "text-orange-500")} />,
+      bgColor: "bg-orange-100",
+    },
+    {
+      title: "GitHub",
       icon: <FaGithub className={twMerge(iconClass, "text-gray-800")} />,
       bgColor: "bg-gray-200",
     },
@@ -83,7 +89,7 @@ export const TechStack = () => {
       >
         Tech Stack
       </Heading>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-between md:justify-start">
         {stack.map((item) => (
           <div
             key={item.title}
