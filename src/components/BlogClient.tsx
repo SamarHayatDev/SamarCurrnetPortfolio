@@ -57,16 +57,16 @@ export const BlogClient = ({ blog, index }: { blog: Blog; index: number }) => {
             <Image
               src={blog.image}
               alt="thumbnail"
-              height="200"
-              width="200"
+              height="150"
+              width="300"
               objectFit="cover"
-              className="rounded-md w-full h-full md:h-[100px] md:w-[200px] object-cover"
+              className="rounded-md w-full h-full md:h-[150px] md:w-[300px] object-cover"
             />
             <div className="flex flex-col col-span-3">
               <Heading className="text-lg md:text-lg lg:text-lg">
                 {blog.title}
               </Heading>
-              <Paragraph className="text-sm md:text-sm lg:text-sm mt-2">
+              <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 flex-1">
                 {blog.description}
               </Paragraph>
               <div className="flex space-x-2 flex-wrap mt-4 gap-1">

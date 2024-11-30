@@ -29,15 +29,17 @@ export const AnimatedProduct = ({
       <Link
         href={product.slug ? `/projects/${product.slug}` : product.href}
         key={product.href}
-        className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
+        className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 py-4"
       >
-        <Image
-          src={product.thumbnail}
-          alt="thumbnail"
-          height="1000"
-          width="1000"
-          className="rounded-md w-full h-full md:h-[100px] md:w-[200px] object-cover"
-        />
+        <div className="h-full flex items-center justify-center">
+          <Image
+            src={product.thumbnail}
+            alt="thumbnail"
+            height="200"
+            width="300"
+            className="rounded-md w-full h-full md:h-[150px] md:w-[300px] object-cover"
+          />
+        </div>
         <div className="flex flex-col justify-between">
           <div>
             <Heading
@@ -46,8 +48,11 @@ export const AnimatedProduct = ({
             >
               {product.title}
             </Heading>
-            <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-              {product.description}
+            <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl pb-3">
+              {/* {product.description} */}
+              {product.description.length > 50
+                ? `${product.description.slice(0, 150)}...`
+                : product.description}
             </Paragraph>
           </div>
           <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
