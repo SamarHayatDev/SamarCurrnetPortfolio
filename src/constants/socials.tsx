@@ -29,7 +29,7 @@ export const socials = [
   },
   {
     href: "https://discordapp.com/users/752720923534295160",
-    label: "@samarhayat.dev",
+    label: "Discord",
     icon: TbBrandDiscord,
   },
 ];

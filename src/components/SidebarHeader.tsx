@@ -14,7 +14,7 @@ export const SidebarHeader = () => {
       />
       <div className="flex text-sm flex-col">
         <p className="font-bold text-primary">Samar Hayat</p>
-        <p className="font-light text-secondary">Frontend Dev</p>
+        <p className="font-light text-secondary">Developer</p>
       </div>
     </div>
   );

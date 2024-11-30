@@ -31,7 +31,7 @@ export const Navigation = ({
           <link.icon
             className={twMerge(
               "h-4 w-4 flex-shrink-0",
-              isActive(link.href) && "text-sky-500"
+              isActive(link.href) && "text-emerald-500"
             )}
           />
           <span>{link.label}</span>
