@@ -31,7 +31,7 @@ export default function RootLayout({
           content="WngP93RQqWAa6aTf0uJvLP2UyYJ8SacTK6EUsv8h4lA"
         />
         <meta name="robots" content="index, follow" />
-
+        <link rel="canonical" href="https://www.samarhayat.online/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Samar Hayat - Frontend Developer" />
         <meta
