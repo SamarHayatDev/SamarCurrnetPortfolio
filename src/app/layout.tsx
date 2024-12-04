@@ -30,6 +30,42 @@ export default function RootLayout({
           name="google-site-verification"
           content="WngP93RQqWAa6aTf0uJvLP2UyYJ8SacTK6EUsv8h4lA"
         />
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Samar Hayat - Frontend Developer" />
+        <meta
+          property="og:description"
+          content="Samar Hayat, Frontend Developer & tech blogger, specializes in UI/UX trends, open-source contributions, and remote work while enhancing his skills."
+        />
+        <meta property="og:url" content="https://www.samarhayat.online/" />
+        <meta
+          property="og:image"
+          content="https://www.samarhayat.online/images/me.png"
+        />
+        <meta property="og:site_name" content="Samar Hayat Portfolio" />
+        <meta property="og:locale" content="en_US" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Samar Hayat - Frontend Developer" />
+        <meta
+          name="twitter:description"
+          content="Samar Hayat, Frontend Developer & tech blogger, specializes in UI/UX trends, open-source contributions, and remote work while enhancing his skills."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.samarhayat.online/images/me.png"
+        />
+
+        <meta
+          property="article:author"
+          content="https://linkedin.com/in/samarhayatdev"
+        />
+        <meta property="profile:username" content="Samar Hayat" />
+        <meta
+          property="profile:email"
+          content="mailto:samarhayat.dev@gmail.com"
+        />
 
         <script
           async
