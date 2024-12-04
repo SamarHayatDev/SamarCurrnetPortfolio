@@ -45,6 +45,29 @@ export default function RootLayout({
       `,
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Samar Hayat",
+              url: "https://www.samarhayat.online/",
+              jobTitle: "Frontend Developer",
+              image: "https://www.samarhayat.online/images/me.png",
+              email: "mailto:samarhayat.dev@gmail.com",
+              telephone: "+923495129992", // Replace with your contact number
+
+              description:
+                "Samar Hayat, Frontend Developer & tech blogger, specializes in UI/UX trends, open-source contributions, and remote work while enhancing his skills.",
+              sameAs: [
+                "https://linkedin.com/in/samarhayatdev",
+                "https://github.com/samarhayatdev",
+                "https://discordapp.com/users/752720923534295160",
+              ],
+            }),
+          }}
+        />
       </head>
       <body
         className={twMerge(
