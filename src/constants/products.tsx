@@ -1,11 +1,14 @@
 import gogencyImage1 from "public/images/gogency_new.png";
 import gogencyThumbnail from "public/images/gogency_new.png";
 import gogencyImage2 from "public/images/gogency_new2.png";
+import SilkTravelsImage1 from "public/images/silk_new1.png";
+import SilkTravelsThumbnail from "public/images/silk_new.png";
+import SilkTravelsImage2 from "public/images/silk_new2.png";
 import Xecutors from "public/images/Xecutors/thumbnail.png";
 import Xecutorstwo from "public/images/Xecutors/thumbnailtwo.png";
-import ZealSoftOne from "public/images/Zealsoft/Frame1.png";
-import ZealSoftTwo from "public/images/Zealsoft/Frame2.png";
-import ZealSoftThree from "public/images/Zealsoft/Frame3.png";
+// import ZealSoftOne from "public/images/Zealsoft/Frame1.png";
+// import ZealSoftTwo from "public/images/Zealsoft/Frame2.png";
+// import ZealSoftThree from "public/images/Zealsoft/Frame3.png";
 
 export const products = [
   {
@@ -78,37 +81,74 @@ export const products = [
       </div>
     ),
   },
+  // {
+  //   href: "https://www.zealsoftsolutions.com/",
+  //   title: "ZealSoft Solutions",
+  //   description:
+  //     "A dynamic and responsive platform designed to showcase IT services like software development, cloud computing, data analytics, and cybersecurity. Built to enhance user experience and highlight the brand's expertise, the website features modern design, seamless navigation, and optimized performance.",
+  //   thumbnail: ZealSoftOne,
+  //   images: [ZealSoftOne, ZealSoftTwo, ZealSoftThree],
+  //   stack: ["WordPress", "Elementor", "BeTheme"],
+  //   slug: "zealsoftsolutions",
+  //   content: (
+  //     <div>
+  //       <p>
+  //         I had the opportunity to develop the website for ZealSoft Solutions, a
+  //         company specializing in IT services such as software development,
+  //         cloud computing, data analytics, and cybersecurity. My role was to
+  //         create a modern, user-friendly platform that effectively showcases
+  //         their expertise and services.
+  //       </p>
+  //       <p>
+  //         Using technologies like WordPress, Elementor, and BeTheme, I designed
+  //         and developed a responsive and visually engaging website. The project
+  //         involved customizing layouts, optimizing performance, and ensuring
+  //         seamless navigation to enhance user experience.
+  //       </p>
+  //       <p>
+  //         Through this project, I honed my skills in UI/UX design, theme
+  //         customization, and performance optimization while collaborating
+  //         closely with the ZealSoft team to align the website with their brand
+  //         vision and objectives.
+  //       </p>
+  //     </div>
+  //   ),
+  // },
   {
-    href: "https://www.zealsoftsolutions.com/",
-    title: "ZealSoft Solutions",
+    href: "https://www.silktravels.co.uk/",
+    title: "Silk Travels",
     description:
-      "A dynamic and responsive platform designed to showcase IT services like software development, cloud computing, data analytics, and cybersecurity. Built to enhance user experience and highlight the brand's expertise, the website features modern design, seamless navigation, and optimized performance.",
-    thumbnail: ZealSoftOne,
-    images: [ZealSoftOne, ZealSoftTwo, ZealSoftThree],
-    stack: ["WordPress", "Elementor", "BeTheme"],
-    slug: "zealsoftsolutions",
+      "A front-end travel website built within Xecutors office using Gogency's template system. Features flight booking, inquiry management, and consultant portal with CRUD operations, invoice generation, and multiple API integrations.",
+    thumbnail: SilkTravelsThumbnail, // Make sure to import this
+    images: [SilkTravelsImage1, SilkTravelsImage2], // Import these images
+    stack: ["React", "Tailwind CSS", "Multiple APIs"],
+    slug: "silk-travels",
     content: (
       <div>
         <p>
-          I had the opportunity to develop the website for ZealSoft Solutions, a
-          company specializing in IT services such as software development,
-          cloud computing, data analytics, and cybersecurity. My role was to
-          create a modern, user-friendly platform that effectively showcases
-          their expertise and services.
+          Silk Travels is a comprehensive travel booking platform developed at Xecutors 
+          using Gogency's template system. The website serves as the front-end interface 
+          for Gogency's travel management system, generated with a single click from their portal.
         </p>
         <p>
-          Using technologies like WordPress, Elementor, and BeTheme, I designed
-          and developed a responsive and visually engaging website. The project
-          involved customizing layouts, optimizing performance, and ensuring
-          seamless navigation to enhance user experience.
+          The platform integrates multiple APIs including Amadeus API for 
+          flight data, Google Gmail API for communication, 
+          Stripe API for payments, and WhatsApp API 
+          for customer interactions. Consultants can perform CRUD operations, generate invoices, 
+          and manage all travel bookings through the portal.
         </p>
         <p>
-          Through this project, I honed my skills in UI/UX design, theme
-          customization, and performance optimization while collaborating
-          closely with the ZealSoft team to align the website with their brand
-          vision and objectives.
+          Built with React.js and Tailwind CSS, 
+          the website displays available flights and allows users to submit inquiries. These 
+          inquiries are sent to the backend where consultants can interact with potential 
+          customers, provide ticket options, and complete bookings.
+        </p>
+        <p>
+          This project demonstrates the power of Gogency's template system while showcasing 
+          complex API integrations and a seamless user experience for both travelers and 
+          travel consultants.
         </p>
       </div>
     ),
-  },
+  }
 ];

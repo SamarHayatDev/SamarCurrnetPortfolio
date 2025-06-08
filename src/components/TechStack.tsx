@@ -14,6 +14,7 @@ import {
   SiShadcnui,
 } from "react-icons/si";
 import { TbBrandGit } from "react-icons/tb";
+import { SiPostman } from "react-icons/si";
 
 export const TechStack = () => {
   const iconClass = "text-2xl group-hover:text-3xl transition-all duration-300";
@@ -78,6 +79,11 @@ export const TechStack = () => {
       title: "Next.js",
       icon: <SiNextdotjs className={twMerge(iconClass, "text-black")} />,
       bgColor: "bg-gray-100",
+    },
+    {
+      title: "Postman",
+      icon: <SiPostman className={twMerge(iconClass, "text-orange-600")} />,
+      bgColor: "bg-orange-100",
     },
   ];
 

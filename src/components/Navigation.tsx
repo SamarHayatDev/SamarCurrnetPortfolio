@@ -17,7 +17,7 @@ export const Navigation = ({
   const isActive = (href: string) => pathname === href;
 
   return (
-    <div className="flex flex-col space-y-1 my-10 relative z-[100]">
+    <div className="flex flex-col space-y-1 my-5 relative z-[100]">
       {navlinks.map((link) => (
         <Link
           key={link.href}
@@ -38,7 +38,7 @@ export const Navigation = ({
         </Link>
       ))}
 
-      <Heading as="p" className="text-sm md:text-sm lg:text-sm pt-10 px-2">
+      <Heading as="p" className="text-sm md:text-sm lg:text-sm pt-5 px-2">
         Socials
       </Heading>
       {socials.map((link) => (

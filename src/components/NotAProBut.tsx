@@ -3,6 +3,7 @@
 import React from "react";
 import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
+import { FaDocker } from "react-icons/fa";
 
 import { TbSeo, TbBrandPhp } from "react-icons/tb";
 import { SiFigma, SiWordpress, SiGutenberg, SiElementor } from "react-icons/si";
@@ -27,20 +28,26 @@ export const NotAProBut = () => {
       bgColor: "bg-pink-100",
     },
     {
+      title: "Docker",
+      icon: <FaDocker className={twMerge(iconClass, "text-blue-600")} />,
+      bgColor: "bg-blue-100",
+    },
+    {
       title: "Gutenberg",
       icon: <SiGutenberg className={twMerge(iconClass, "text-gray-700")} />,
       bgColor: "bg-gray-100",
-    },
-    {
-      title: "SEO",
-      icon: <TbSeo className={twMerge(iconClass, "text-green-500")} />,
-      bgColor: "bg-green-100",
     },
     {
       title: "PHP",
       icon: <TbBrandPhp className={twMerge(iconClass, "text-blue-600")} />,
       bgColor: "bg-blue-100",
     },
+    {
+      title: "SEO",
+      icon: <TbSeo className={twMerge(iconClass, "text-green-500")} />,
+      bgColor: "bg-green-100",
+    },
+    
   ];
 
   return (

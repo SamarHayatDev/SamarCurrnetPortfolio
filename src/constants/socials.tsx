@@ -11,17 +11,17 @@ export const socials = [
     icon: TbBrandGithub,
   },
   // LinkedIn link
-  {
-    href: "https://linkedin.com/in/samardev",
-    label: "LinkedIn",
-    icon: IconBrandLinkedin,
-  },
+  // {
+  //   href: "https://linkedin.com/in/samardev",
+  //   label: "LinkedIn",
+  //   icon: IconBrandLinkedin,
+  // },
   // Email link
-  {
-    href: "mailto:samarhayat.dev@gmail.com",
-    label: "Email",
-    icon: IconMail,
-  },
+  // {
+  //   href: "mailto:samarhayat.dev@gmail.com",
+  //   label: "Email",
+  //   icon: IconMail,
+  // },
   {
     href: "https://wa.me/923495129992   ",
     label: "WhatsApp",
