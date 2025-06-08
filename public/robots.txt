@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.samarhayat.online/
+
+# Sitemaps
+Sitemap: https://www.samarhayat.online/sitemap.xml

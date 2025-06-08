@@ -85,7 +85,7 @@ export const products = [
   //   href: "https://www.zealsoftsolutions.com/",
   //   title: "ZealSoft Solutions",
   //   description:
-  //     "A dynamic and responsive platform designed to showcase IT services like software development, cloud computing, data analytics, and cybersecurity. Built to enhance user experience and highlight the brand's expertise, the website features modern design, seamless navigation, and optimized performance.",
+  //     "A dynamic and responsive platform designed to showcase IT services like software development, cloud computing, data analytics, and cybersecurity. Built to enhance user experience and highlight the brand&apos;s expertise, the website features modern design, seamless navigation, and optimized performance.",
   //   thumbnail: ZealSoftOne,
   //   images: [ZealSoftOne, ZealSoftTwo, ZealSoftThree],
   //   stack: ["WordPress", "Elementor", "BeTheme"],
@@ -118,7 +118,7 @@ export const products = [
     href: "https://www.silktravels.co.uk/",
     title: "Silk Travels",
     description:
-      "A front-end travel website built within Xecutors office using Gogency's template system. Features flight booking, inquiry management, and consultant portal with CRUD operations, invoice generation, and multiple API integrations.",
+      "A front-end travel website built within Xecutors office using Gogency&apos;s template system. Features flight booking, inquiry management, and consultant portal with CRUD operations, invoice generation, and multiple API integrations.",
     thumbnail: SilkTravelsThumbnail, // Make sure to import this
     images: [SilkTravelsImage1, SilkTravelsImage2], // Import these images
     stack: ["React", "Tailwind CSS", "Multiple APIs"],
@@ -126,29 +126,30 @@ export const products = [
     content: (
       <div>
         <p>
-          Silk Travels is a comprehensive travel booking platform developed at Xecutors 
-          using Gogency's template system. The website serves as the front-end interface 
-          for Gogency's travel management system, generated with a single click from their portal.
+          Silk Travels is a comprehensive travel booking platform developed at
+          Xecutors using Gogency&apos;s template system. The website serves as
+          the front-end interface for Gogency&apos;s travel management system,
+          generated with a single click from their portal.
         </p>
         <p>
-          The platform integrates multiple APIs including Amadeus API for 
-          flight data, Google Gmail API for communication, 
-          Stripe API for payments, and WhatsApp API 
-          for customer interactions. Consultants can perform CRUD operations, generate invoices, 
-          and manage all travel bookings through the portal.
+          The platform integrates multiple APIs including Amadeus API for flight
+          data, Google Gmail API for communication, Stripe API for payments, and
+          WhatsApp API for customer interactions. Consultants can perform CRUD
+          operations, generate invoices, and manage all travel bookings through
+          the portal.
         </p>
         <p>
-          Built with React.js and Tailwind CSS, 
-          the website displays available flights and allows users to submit inquiries. These 
-          inquiries are sent to the backend where consultants can interact with potential 
+          Built with React.js and Tailwind CSS, the website displays available
+          flights and allows users to submit inquiries. These inquiries are sent
+          to the backend where consultants can interact with potential
           customers, provide ticket options, and complete bookings.
         </p>
         <p>
-          This project demonstrates the power of Gogency's template system while showcasing 
-          complex API integrations and a seamless user experience for both travelers and 
-          travel consultants.
+          This project demonstrates the power of Gogency&apos;s template system
+          while showcasing complex API integrations and a seamless user
+          experience for both travelers and travel consultants.
         </p>
       </div>
     ),
-  }
+  },
 ];

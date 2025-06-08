@@ -15,14 +15,20 @@ export default function Home() {
         Hello there! I&apos;m Samar Hayat
       </Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a <Highlight>Front-End Developer</Highlight> specializing in modern web development with{" "}
-        <Highlight>Next.js</Highlight>, <Highlight>React.js</Highlight>, and <Highlight>JavaScript</Highlight>.
+        I&apos;m a <Highlight>Front-End Developer</Highlight> specializing in
+        modern web development with <Highlight>Next.js</Highlight>,{" "}
+        <Highlight>React.js</Highlight>, and <Highlight>JavaScript</Highlight>.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I build fast, mobile-friendly websites using <Highlight>Tailwind CSS</Highlight>, <Highlight>ShadCN</Highlight>, and work with APIs like <Highlight>GraphQL</Highlight> and <Highlight>REST</Highlight>.
+        I build fast, mobile-friendly websites using{" "}
+        <Highlight>Tailwind CSS</Highlight>, <Highlight>ShadCN</Highlight>, and
+        work with APIs like <Highlight>GraphQL</Highlight> and{" "}
+        <Highlight>REST</Highlight>.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        With experience at <Highlight>Xecutors</Highlight> and <Highlight>Zitsol</Highlight>, I've focused on creating responsive, SEO-optimized interfaces that improve user experience.
+        With experience at <Highlight>Xecutors</Highlight> and{" "}
+        <Highlight>Zitsol</Highlight>, I&apos;ve focused on creating responsive,
+        SEO-optimized interfaces that improve user experience.
       </Paragraph>
       <Link
         href={"mailto:samarhayat.dev@gmail.com"}
