@@ -1,6 +1,6 @@
-import gogencyImage1 from "public/images/Gogency.png";
-import gogencyThumbnail from "public/images/Gogency.png";
-import gogencyImage2 from "public/images/Gogency.png";
+import gogencyImage1 from "public/images/gogency_new.png";
+import gogencyThumbnail from "public/images/gogency_new.png";
+import gogencyImage2 from "public/images/gogency_new2.png";
 import Xecutors from "public/images/Xecutors/thumbnail.png";
 import Xecutorstwo from "public/images/Xecutors/thumbnailtwo.png";
 import ZealSoftOne from "public/images/Zealsoft/Frame1.png";
@@ -53,7 +53,7 @@ export const products = [
       "An automated traveling portal where agencies can automate tasks like ticket invoice generation, email messaging, HR system management, and social media integration. Create modern websites with a single click.",
     thumbnail: gogencyThumbnail,
     images: [gogencyImage1, gogencyImage2],
-    stack: ["Nextjs", "Tailwindcss", "MUI"],
+    stack: ["Nextjs", "Tailwindcss", "ShadCn UI"],
     slug: "gogency",
     content: (
       <div>
